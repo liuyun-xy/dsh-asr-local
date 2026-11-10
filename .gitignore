@@ -1,0 +1,5 @@
+models/
+*.tar.bz2
+*.onnx
+__pycache__/
+*.pyc
