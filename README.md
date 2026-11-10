@@ -8,6 +8,13 @@
 > A local, offline, OpenAI-compatible ASR endpoint for `dsh-video-storyboard`.
 > sherpa-onnx + paraformer-zh + ct-transformer punctuation + silero VAD. No API key, nothing leaves the machine.
 
+**相关项目**
+
+- 主项目：[SAOS-3624/dsh-video-storyboard](https://github.com/SAOS-3624/dsh-video-storyboard) — 本仓库只是给它补上转写这一块
+- 它定的契约：[docs/asr-contract.md](https://github.com/SAOS-3624/dsh-video-storyboard/blob/main/docs/asr-contract.md)
+- 它给的三种 ASR 方案：[docs/CONFIG.zh.md §7.1](https://github.com/SAOS-3624/dsh-video-storyboard/blob/main/docs/CONFIG.zh.md)
+- 推理引擎：[k2-fsa/sherpa-onnx](https://github.com/k2-fsa/sherpa-onnx)
+
 ---
 
 ## 为什么需要它
